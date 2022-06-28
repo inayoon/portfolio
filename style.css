@@ -134,10 +134,6 @@ p {
   border-radius:var(--size-border-radius);
 }
 
-.navbar__menu__item.active{
-  /* border:1px solid var(--color-light-yellow); */
-}
-
 .navbar__menu__item:hover{
   background-color: var(--color-light-yellow);
 }
@@ -315,7 +311,7 @@ flex-basis: 40%;
   margin :3px;
 }
 
-.category__btn.active,
+.category__btn.selected,
 .category__btn:hover{
   background-color: #E1A77D;
   color: var(--color-light-white);
