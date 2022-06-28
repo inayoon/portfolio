@@ -403,3 +403,29 @@ flex-basis: 40%;
 .testimonial__speech-bubble a{
   color:#F1A867;
 }
+
+/* Contact */
+ #contact{
+  background-color: #F0EEE6;
+ }
+
+ .contact__title, .contact__email,
+ .contact__rights{
+  color:#895324;
+ }
+
+ .contact__title{
+  margin : 32px 0;
+ }
+
+ .contact__links i{
+  font-size: var(--font-large);
+  color:#aa8769;
+  margin: 24px 4px;
+ }
+
+.contact__links i:hover{
+  transform:scale(1.1);
+  color:#604329;
+  transition: all var(--animation-duration)ease-in;
+}
