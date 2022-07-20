@@ -217,7 +217,7 @@ p {
 }
 
 
-.major__icon :hover i {
+.major__icon i:hover  {
   color : var(--color-light-brown);
   transform: scale(1.1);
 }
@@ -251,7 +251,7 @@ p {
 }
 .job__logo{
   width: 200px;
-  margin-bottom : 60px;
+  margin-bottom : 30px;
 }
 
 /* Skill */
@@ -355,7 +355,7 @@ flex-basis: 40%;
   width: 280px;
   height: 250px;
   margin:2px;
-  background-color: var(--color-light-white);
+  background-color: #d8d5ce;
 }
 
 .project.invisible{
